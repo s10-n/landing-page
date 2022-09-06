@@ -9,7 +9,6 @@ body {
     display: flex;
     background-color: #1f2937;
     align-items: center;
-    justify-content: space-around;
 }
 
 .header-logo {
@@ -29,5 +28,10 @@ body {
 }
 
 .hero {
-    display: flex;
+    display: flex;  
+}
+
+.hero, .header {
+    justify-content: space-between;
+    padding: 0 15%;
 }
