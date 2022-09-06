@@ -11,8 +11,6 @@ body {
 }
 
 .header-link {
-    font-size: 18px;
-    color: #e5e7eb;
     text-decoration: none;
     margin-left: 24px;
 }
@@ -33,4 +31,9 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+}
+
+.hero-copy, .header-link {
+    font-size: 18px;
+    color: #e5e7eb;
 }
