@@ -111,6 +111,8 @@ body {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
