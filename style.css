@@ -33,7 +33,14 @@ body {
     color: #f9faf8;
 }
 
-.hero-copy, .header-link {
+.hero-copy, .header-link, .hero-button {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
 }
