@@ -106,3 +106,14 @@ body {
     color: #70747c;
     margin-top:16px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
