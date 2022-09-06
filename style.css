@@ -24,7 +24,7 @@ body {
     padding: 0 15%;
     display: flex;
     background-color: #1f2937;
-    align-items: center;
+    
 }
 
 .hero-header {
@@ -50,4 +50,12 @@ body {
 .hero-button:hover {
     color: #3882f6;
     background-color: #f9faf8;
+}
+
+.hero-container, .image-placeholder {
+    flex:1;
+}
+
+.hero {
+    gap:48px;
 }
