@@ -5,12 +5,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header {
-    display: flex;
-    background-color: #1f2937;
-    align-items: center;
-}
-
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
@@ -27,11 +21,10 @@ body {
     background-color: #70747c;
 }
 
-.hero {
-    display: flex;  
-}
-
 .hero, .header {
     justify-content: space-between;
     padding: 0 15%;
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
 }
