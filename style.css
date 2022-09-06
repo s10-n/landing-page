@@ -86,18 +86,23 @@ body {
 
 .image-gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap:64px;
 }
 
 .card-image {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border: 5px solid #3882f6;
     border-radius: 10px;
 }
 
 .card {
     text-align: center;
-    width:200px;
+    width:180px;
 }
 
+.card-text {
+    color: #70747c;
+    margin-top:16px;
+}
