@@ -83,3 +83,20 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.image-gallery {
+    display: flex;  
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card {
+    text-align: center;
+    width:200px;
+}
+
