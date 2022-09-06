@@ -31,6 +31,7 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    margin:0;
 }
 
 .hero-copy, .header-link, .hero-button {
@@ -39,6 +40,7 @@ body {
 }
 
 .hero-button {
+    margin-top: 12px;
     background-color: #3882f6;
     cursor: pointer;
     border: 0;
@@ -58,4 +60,14 @@ body {
 
 .hero {
     gap:48px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.hero-copy {
+    margin:0;
+}
+
+.header {
+    align-items: center;
 }
