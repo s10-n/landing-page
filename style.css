@@ -112,7 +112,7 @@ body {
 .quote {
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .quote-text {
@@ -120,4 +120,14 @@ body {
     font-weight: 200;
     font-style: italic;
     color: #1f2937;
+}
+
+.quote-attribution {
+    font-weight: bold;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 864px;
 }
