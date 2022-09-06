@@ -8,6 +8,8 @@ body {
 .header {
     display: flex;
     background-color: #1f2937;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-logo {
@@ -18,4 +20,5 @@ body {
 .header-link {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
