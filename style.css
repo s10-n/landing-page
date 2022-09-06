@@ -43,4 +43,5 @@ body {
     cursor: pointer;
     border: 0;
     font-weight: bold;
+    border-radius: 5px;
 }
