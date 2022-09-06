@@ -23,3 +23,11 @@ body {
     text-decoration: none;
     margin-left: 24px;
 }
+
+.image-placeholder {
+    background-color: #70747c;
+}
+
+.hero {
+    display: flex;
+}
