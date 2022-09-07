@@ -138,6 +138,7 @@ body {
     font-weight: 200;
     font-style: italic;
     color: #1f2937;
+    margin-bottom: 0;
 }
 
 .quote-attribution {
@@ -155,9 +156,26 @@ body {
 
 .call-to-action {
     display:flex;
+    justify-content: center;
+    height:480px;
 }
 
 .call-to-action-box {
     background-color: #3882f6;
     color: white;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 24px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to-action-header {
+    font-size: 24px;
+    margin:0;
+}
+
+.call-to-action-copy {
+    margin-top:4px;
 }
