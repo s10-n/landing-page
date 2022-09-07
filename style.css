@@ -54,6 +54,24 @@ body {
     background-color: #f9faf8;
 }
 
+.call-to-action-button {
+    color: white;
+    font-size: 18px;
+    margin-top: 12px;
+    background-color: #3882f6;
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px white solid;
+    padding: 6px 24px;
+}
+
+.call-to-action-button:hover {
+    color: #3882f6;
+    background-color: white;
+}
+
 .hero-container, .image-placeholder {
     flex:1;
 }
@@ -133,4 +151,13 @@ body {
     flex-direction: column;
     width: 864px;
     padding: 96px 0;
+}
+
+.call-to-action {
+    display:flex;
+}
+
+.call-to-action-box {
+    background-color: #3882f6;
+    color: white;
 }
